@@ -19,7 +19,7 @@ def main():
     FONT="./fonts/gohufont-uni-14.pil"
 
     t = gifos.Terminal(750, 500, 15, 15, FONT, 15)
-    gifos.Terminal.set_prompt(t, "\x1b[32mthomas@pompu \x1b[90m$ \x1b[0m")
+    gifos.Terminal.set_prompt(t, "\x1b[32mthomas\x1b[90m@\x1b[32mpompu \x1b[90m$ \x1b[0m")
     t.set_fps(15)
 
     t.gen_text("", 1, count=20)
